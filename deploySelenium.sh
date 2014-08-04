@@ -3,7 +3,7 @@ unzip chromedriver_linux*
 rm chromedriver_linux*
 sudo chmod a+x /usr/bin/chromedriver
 apt-get -f install
-sudo apt-get install python-pip
+sudo apt-get install python-pip gdm xorg openbox
 sudo pip install selenium
 sudo pip install pyvirtualdisplay
 sudo mv chromedriver /usr/bin/
