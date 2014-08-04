@@ -12,5 +12,5 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome*; rm google-chrome*
 apt-get -f install
 sudo apt-get install xvfb
-sudo Xvfb :1 -screen 5 1024x768x8 &
+sudo Xvfb :1.5 -screen 5 1024x768x8 &
 export DISPLAY=:1.5
